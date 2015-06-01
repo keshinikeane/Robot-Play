@@ -1,0 +1,45 @@
+Lab4: Classes (fields, methods, constructors, static, package)
+===
+  
+If using Eclipse, begin this lab assignment as follows:
+(1) Download the file lab4.zip from Blackboard.
+(2) Create a new project called labs (not lab4!).
+(3) In your project labs, create a package called lab4.
+(4) Copy the files from lab4.zip into the lab4 folder.
+  
+When you have completed the assignment below, put
+your completed Robot.java, RobotTest.java, and 
+RobotPlay.java into a file lab4.zip and submit via 
+Blackboard.
+  
+---
+Complete the class Robot consistent with the specifications
+in the comments for each method. Note that you will need to
+declare new private fields in this class to hold the state 
+of each Robot constructed. (Initialize those fields in the
+constructor.) Read the method specifications carefully!
+  
+---
+Complete the program RobotTest so that it constructs
+a Robot and then calls each of the methods available 
+in the Robot class at least once. In your test program, 
+have your robot end where it begins, so that the distance 
+from begin to end locations should be zero. Is it zero? 
+If not, why not? Complete and use the method print so 
+that you can easily track the state of your robot.
+  
+---
+Use the class RobotPlay to play with a Robot. As written,
+this class RobotPlay is marginally useful; improve it as
+follows:
+  
+a) Draw the robot better so that its heading is obvious.
+  
+b) When the robot battery is drained, draw the robot in 
+red. When battery power is full to capacity, draw the 
+robot in blue.
+  
+c) Draw text on the playing field to display the current 
+battery power, current (x,y) coordinates, and current 
+distance of the robot from the point where it was first 
+constructed.
